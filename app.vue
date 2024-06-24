@@ -2,8 +2,7 @@
   <div>
     <NuxtRouteAnnouncer />
     <div class="body">
-      <!-- <ImageComponent /> -->
-      <ImageBreakOut />
+      <NuxtPage />
     </div>
   </div>
 </template>
