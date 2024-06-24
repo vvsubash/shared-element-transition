@@ -2,7 +2,7 @@
   <TransitionGroup as="div" name="list">
     <div class="relative">
       <div class="slider-transition w-full flex gap-x-2 mx-16">
-        <NuxtImg
+        <img
           v-for="i in imagesInView"
           :key="i"
           class="w-1/6 border p-2"
