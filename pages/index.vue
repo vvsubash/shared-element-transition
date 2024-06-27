@@ -6,5 +6,8 @@
     <NuxtLink to="/imageBreakOut" class="text-green-400 underline"
       >Image Breakout Component</NuxtLink
     >
+    <NuxtLink to="/svg" class="text-orange-500 underline">
+      SVG
+    </NuxtLink>
   </div>
 </template>
