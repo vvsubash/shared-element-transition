@@ -32,7 +32,7 @@ const imagesInView = computed(() =>
   [...images].splice(initialImageIndex.value, 5)
 );
 const next = () => {
-  () => setTimeout(() => {}, 500);
+  // might have to fetch image before pre-loading - https://stackoverflow.com/questions/48090443/how-to-preload-images-using-vue-js
   document.startViewTransition(() => initialImageIndex.value++);
 };
 
